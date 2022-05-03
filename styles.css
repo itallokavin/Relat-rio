@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS',Arial, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #020814;
+    color: white;
+}
+
+#box{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 30px;
+  
+}
+.procedimento label{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.date label{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+input{
+    outline: none;
+}
+
+input[type=text]{
+    display: block;
+    width: 420px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+}
+#buscar{
+    display: block;
+    width: 200px;
+}
+input[type=date]{
+    width: 200px;
+    display: inline;
+}
+
+#buscar{
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translate(-50%);
+    background:none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#buscar:hover{
+    background-color: white;
+    color: #020814;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+/*************** RELATÓRIO ****************/
+#title-relatorio{
+    text-align: center;
+    
+}
+th{
+    text-align: left;
+}
+
+#rodape{
+    text-align: center;
+    padding: 10px;
+}
+
+#rodape input[type=submit]{
+    width: 150px;
+    background: none;
+    border: 1px solid green;
+    color: green;
+    height: 30px;
+    
+}
+
+#retornar{
+    text-align: center;
+    padding: 10px;
+}
+
+#retornar button{
+    width: 150px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    height: 30px;
+}
+
+#rodape input, #retornar button{
+    border-radius: 10px;
+}
+
+#rodape input[type=submit]:hover{
+    background-color: green;
+    color: white;
+}
+
+#retornar button:hover{
+    background-color: white ;
+    color: #020814;
+}
+
