@@ -10,7 +10,7 @@ Não utilizei nenhum framework de back-end, apenas no php puro mesmo.
 Anteriormente, eu emitia esses relatórios para a colaboradora, porém, tive o objetivo de realizar esse projeto para 
 que a mesma pudesse, sempre que preciso, emitir seus próprios relatórios.
 
-O faz um select no banco de dados com os dados fornecidos pelo usuário: codigo do procedimento, data inicial e data final.
+O código faz um select no banco de dados com os dados fornecidos pelo usuário: codigo do procedimento, data inicial e data final.
 Após o select, é listado na tela o resultado e junto à isso, tem um botão para exportar os dados para um planilha de excel.
 
 
@@ -24,5 +24,5 @@ I didn't use any backend framework, just pure php.
 Previously, I issued these reports to the collaborator, however, I had the objective of carrying out this project to
 that it could, whenever necessary, issue its own reports.
 
-The does a select in the database with the data provided by the user: procedure code, start date and end date.
+The code does a select in the database with the data provided by the user: procedure code, start date and end date.
 After the select, the result is listed on the screen and next to that, there is a button to export the data to an excel spreadsheet.
